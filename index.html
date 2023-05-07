@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/custom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script src="js/typed.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">PORTFO<span>LIO</span></div>
+            <div class="menu">
+                <a href="a">Home</a>
+                <a href="a">About</a>
+                <a href="a">Skills</a>
+                <a href="a">Projects</a>
+                <a href="a">Contact</a>
+            </div>
+        </nav>
+
+        <div class="text">
+            <p>Hello, I am</p>
+            <h1>Abhi$hek Kakade</h1>
+            <p>I am a <span id="ani" style="color:#e74c3c"></span></p>
+            <button class="c-btn">Hire me</button>
+        </div>
+    </header>
+    <section id="about">
+        <div class="section-info">
+            <h1>About</h1>
+            <p>Who i am?</p>
+        </div>
+
+        <div class="about-row">
+            <div class="about-left-col">
+                <img src="./images/about.jpeg">
+            </div>
+
+            <div class="about-right-col">
+                <p id="p-title">
+                    Hello, I'm Abhishek & I'm <span id="ani2" style="color:#e74c3c">
+                </p>
+                <p>
+                    My name is Abhishek and I'm a computer engineering student at COEP Technological University pune. I'm currently majoring in Computer Science and hope to work in tech industry after graduation. My academic goal for this semester is to improve my coding skills and maintain a pointer, whikle also exploring different areas of computer engineering, such as artificial intelligence and cyber security.In my free time, I enjoy playing video games,watching movies and reading books. Outside of my academic pursuits, I enjoy attending tech meetups and conference to expand my knowledge. Looking ahead, I'm excited to continue my studies and explore different areas of computer science.I hope to use my skills and knowledge to make positive impact on society and contribute to development of innovative technologies that improves people lives.
+                </p>
+                <button class="c-btn">Download CV</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-info">
+            <h1 style="color: bisque;">skills</h1>
+            <p>who i am?</p>
+        </div>
+
+        <div class="skills-row">
+            <div class="skills-left-col">
+                <p>
+                    As a computer engineering student, I have developed proficiency in various programming languages such as Python, C++, Javascript, Html, CSS. I  have also gained experience in web development using Html, CSS and javascript and have developed several websites throughout my academic career, Working in teams has also been an essential part of my academic experience. I have colaborated with other students on several projects.I have also gained effective communication skills,being able to communicate technical information to both technical and non technical audiences.  
+                    
+                </p>
+                <button class="c-btn">Read more</button>
+            </div>
+            <div class="skills-right-col">
+                <div class="progress-div">
+                    <p>
+                        <span>HTML</span><br>
+                    <progress value="80" max="100"></progress>
+                    <span>80%</span>
+                </p>
+                <p>
+                    <span>CSS</span><br>
+                    <progress value="80" max="100"></progress>
+                    <span>80%</span>
+                </p>
+                <p>
+                    <span>JAVASCRIPT</span><br>
+                    <progress value="70" max="100"></progress>
+                    <span>70%</span>
+                </p>
+                <p>
+                    <span>C++</span><br>
+                    <progress value="65" max="100"></progress>
+                    <span>65%</span>
+                </p>
+                <p>
+                    <span>PYTHON</span><br>
+                    <progress value="80" max="100"></progress>
+                    <span>80%</span>
+                </p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="section-info">
+            <h1>Projects</h1>
+            <p>what i do</p>
+        </div>
+        <div class="services-row">
+            <div class="services-box" data-tilt>
+                <img src="images/b2.png" alt="">
+                <h2>Web Design</h2>
+                <p>
+
+                </p>
+            </div>
+            <div class="services-box" data-tilt>
+                <img src="images/b2.png" alt="">
+                <h2>Web Development</h2>
+                <p>
+
+                </p>
+            </div>
+            <div class="services-box" data-tilt>
+                <img src="images/b2.png" alt="">
+                <h2>Apps Development</h2>
+                <p>
+
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="section-info">
+            <h1>Get in touch</h1>
+            <p>Social Media</p>
+        </div>
+        <div class="contact-row">
+            <div class="contact-left-col">
+                <img src="images/b3.png" alt="">
+            </div>
+            <div class="contact-right-col">
+                <form>
+                    <h2>Connect with me</h2>
+                    <input type="text" name="" placeholder="name">
+                    <input type="email" name="" placeholder="email">
+                    <br>
+                    <textarea name="" id="" cols="40" rows="10" placeholder="message"></textarea>
+                    <br>
+                    <button class="c-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <h2>Developed by Abhi Kakade</h2>
+        <img src="images/icon.png" alt="" width="200">
+    </section>
+
+    <script src="js/jquery.ripples-min.js"></script>
+
+
+    <script>
+        let animate = new Typed('#ani', {
+            strings: ["Computer Engineering Student", "Web Developer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+
+        })
+    </script>
+    <script>
+        let animat = new Typed('#ani2', {
+            strings: ["Computer Engineering Student", "Web Developer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+
+        })
+    </script>
+
+    <script src="js/tilt.jquery.min.js"></script>
+
+</body>
+
+</html>
